@@ -1,5 +1,5 @@
-         def map_read(self, map_file):
-        with open(map_file, encoding='utf-8') as f:
+def map_read(self, map_file):
+         with open(map_file, encoding='utf-8') as f:
             data = json.load(f)
 
             # variables for data loading
